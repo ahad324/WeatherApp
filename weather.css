@@ -440,8 +440,33 @@ body {
 
 
 
+@media screen and (max-width:1060px) {
+    .container {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:912px) {
+    .container {
+        width: 70%;
+    }
+}
+
 @media screen and (max-width:600px) {
     .container {
-        width: 95%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .container {
+        width: 90%;
+        padding: 15px 20px;
+    }
+}
+
+@media screen and (max-width:290px) {
+    .container {
+        width: 100%;
     }
 }
