@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <script src="http://kit.fontawesome.com/7c8801c017.js"></script>
+    <title>Weather App </title>
+</head>
+
+<body>
+   
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter your Location">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="https://img.freepik.com/free-vector/error-404-concept-landing-page_52683-18756.jpg?size=338&ext=jpg&uid=R85928789&ga=GA1.2.1261602433.1667552905&semt=sph"
+                alt="...">
+            <p data-text="Oops! Invalid Location...">`</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="" alt="....">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="other-details">
+            <div class="feelslike">
+                <i class="fas fa-lightbulb"></i>
+                <div class="text">
+                    <p>feels like</p>
+                    <span></span>
+                </div>
+            </div>
+            <div class="pressure">
+                <img src="https://icon666.com/r/_thumb/w80/w8039zufwi93_64.png" style="width: 30%;" alt="...">
+                <div class="text">
+                    <p>pressure</p>
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="tempmin-max">
+            <div class="tempmin">
+                <i class="fas fa-temperature-low"></i>
+                <div class="text">
+                    <p>temp min</p>
+                    <span></span>
+                </div>
+            </div>
+            <div class="tempmax">
+                <i class="fas fa-temperature-high"></i>
+                <div class="text">
+                    <p>temp max</p>
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+   
+</body>
+
+</html>
+<script src="weather.js"></script>
