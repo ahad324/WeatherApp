@@ -51,8 +51,6 @@ search.addEventListener('click', () => {
             const tempmax = document.querySelector('.tempmin-max .tempmax span');
 
 
-            console.log(json.main)
-
 
             switch (json.weather[0].main) {
                 case 'Clear':
